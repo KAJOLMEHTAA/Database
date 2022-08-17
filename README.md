@@ -10,11 +10,19 @@ Following are the steps to create databse using Lambda:
 1. Install pymysql locally.
 2. Write you lambda code in the same directory.
 3. Create a Lambda function.
-4. Upload the Zip folder of pymysql module and code to the lambda function.
 
 ## Step-By-Step Explanation:
 1. Install pymysql Locally:
+      * Create a Project directory.
       * Use the following command to install pymysql- pip install pymysql
       
 2. Lambda Code:
       * In the same directory write your lambda code and name the file as lambda_function.py
+      * [Refer the file] for the Lambda Code (https://github.com/KAJOLMEHTAA/Database/blob/main/lambda_function.py)
+      
+3. Create a Lambda Function:
+      * Open Lambda Console, Create Function
+      * Enter the function Name, Select Python 3.9, create a IAM role with required policies and attach the same to the Lambda function. 
+      * Click on Create Function, will redirect to the Function page with Basic Lambda Code.
+      * Select upload from .zip from dropdown and upload the zipped files(pymysql module and lambda code)
+      
