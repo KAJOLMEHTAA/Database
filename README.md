@@ -26,3 +26,10 @@ Following are the steps to create databse using Lambda:
       * Click on Create Function, will redirect to the Function page with Basic Lambda Code.
       * Select upload from .zip from dropdown and upload the zipped files(pymysql module and lambda code)
       
+## Useful Links
+https://www.youtube.com/watch?v=yyBSeGkuPqk 
+
+## Databse access commands
+To view all database: show databases; 
+Go inside the database: use test; #Define the database name
+show tables;
