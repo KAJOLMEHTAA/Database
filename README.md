@@ -18,7 +18,7 @@ Following are the steps to create databse using Lambda:
       
 2. Lambda Code:
       * In the same directory write your lambda code and name the file as lambda_function.py
-      * [Refer the file] for the Lambda Code (https://github.com/KAJOLMEHTAA/Database/blob/main/lambda_function.py)
+      * [Refer the file](https://github.com/KAJOLMEHTAA/Database/blob/main/lambda_function.py) for the Lambda Code 
       
 3. Create a Lambda Function:
       * Open Lambda Console, Create Function
